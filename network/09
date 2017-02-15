@@ -1,0 +1,30 @@
+Avec l'adresse DNS local, il y a plus d'adresse dans la liste alors qu'avec le serveur DNS de google seul les serveurs Public apparaissent
+
+nslookup 42.fr
+
+Server:		10.51.1.42
+Address:	10.51.1.42#53
+
+Non-authoritative answer:
+Name:	42.fr
+Address: 163.172.250.12
+Name:	42.fr
+Address: 10.52.1.11
+Name:	42.fr
+Address: 10.52.1.11
+Name:	42.fr
+Address: 163.172.250.11
+
+=======================
+
+nslookup 42.fr 8.8.8.8
+
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+Name:	42.fr
+Address: 163.172.250.11
+Name:	42.fr
+Address: 163.172.250.12
+

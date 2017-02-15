@@ -1,1 +1,1 @@
-ifconfig | expand | cut -c1-8 | uniq -u | awk -F: '{print $1;}'
+ifconfig -l
