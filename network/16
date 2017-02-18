@@ -1,3 +1,5 @@
+# PAs root == impossible de changer ce fichier mais ilf aut modifier le fichier /etc/hosts comme ca.
+
 127.0.0.1       localhost
 255.255.255.255 broadcasthost
 ::1             localhost

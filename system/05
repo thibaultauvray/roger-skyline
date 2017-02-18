@@ -1,0 +1,12 @@
+# service ssh status
+● ssh.service - OpenBSD Secure Shell server
+Loaded: loaded (/lib/systemd/system/ssh.service; enabled)
+Active: active (running) since Wed 2017-02-15 14:56:56 GMT; 17min ago
+Main PID: 428 (sshd)
+CGroup: /system.slice/ssh.service
+├─ 428 /usr/sbin/sshd -D
+├─ 866 sshd: vagrant [priv]
+├─ 868 sshd: vagrant@pts/0
+├─ 869 -bash
+├─1561 sudo service ssh status
+└─1562 systemctl status ssh.service
